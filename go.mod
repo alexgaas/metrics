@@ -1,4 +1,4 @@
-module metrics
+module github.com/alexgaas/metrics
 
 go 1.25
 
