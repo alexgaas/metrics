@@ -1,7 +1,7 @@
 package prometheus
 
 import (
-	"metrics/internal/pkg/registryutil"
+	"github.com/alexgaas/metrics/internal/pkg/registryutil"
 )
 
 type RegistryOpts struct {

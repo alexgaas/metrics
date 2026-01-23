@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"metrics"
-	"metrics/internal/pkg/ptr"
+	"github.com/alexgaas/metrics"
+	"github.com/alexgaas/metrics/internal/pkg/ptr"
 )
 
 func TestHistogram_RecordValue(t *testing.T) {

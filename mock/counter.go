@@ -3,7 +3,7 @@ package mock
 import (
 	"go.uber.org/atomic"
 
-	"metrics"
+	"github.com/alexgaas/metrics"
 )
 
 var _ metrics.Counter = (*Counter)(nil)

@@ -1,6 +1,6 @@
 package nop
 
-import "metrics"
+import "github.com/alexgaas/metrics"
 
 var _ metrics.Counter = (*Counter)(nil)
 

@@ -3,8 +3,8 @@ package mock
 import (
 	"sync"
 
-	"metrics"
-	"metrics/internal/pkg/registryutil"
+	"github.com/alexgaas/metrics"
+	"github.com/alexgaas/metrics/internal/pkg/registryutil"
 )
 
 type MetricsVector interface {

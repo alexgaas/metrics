@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"metrics"
+	"github.com/alexgaas/metrics"
 )
 
 var _ metrics.Timer = (*Timer)(nil)

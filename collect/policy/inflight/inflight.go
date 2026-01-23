@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"metrics"
-	"metrics/internal/pkg/xsync"
+	"github.com/alexgaas/metrics"
+	"github.com/alexgaas/metrics/internal/pkg/xsync"
 )
 
 var _ metrics.CollectPolicy = (*inflightPolicy)(nil)

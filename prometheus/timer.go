@@ -5,7 +5,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"metrics"
+	"github.com/alexgaas/metrics"
 )
 
 var _ metrics.Timer = (*Timer)(nil)

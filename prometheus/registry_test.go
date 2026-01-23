@@ -10,9 +10,9 @@ import (
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/assert"
 
-	"metrics"
-	"metrics/internal/pkg/ptr"
-	"metrics/internal/pkg/test"
+	"github.com/alexgaas/metrics"
+	"github.com/alexgaas/metrics/internal/pkg/ptr"
+	"github.com/alexgaas/metrics/internal/pkg/test"
 )
 
 func TestNewRegistry(t *testing.T) {

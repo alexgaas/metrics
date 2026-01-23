@@ -3,7 +3,7 @@ package metricsutil
 import (
 	"sort"
 
-	"metrics"
+	"github.com/alexgaas/metrics"
 )
 
 // BucketsBounds unwraps Buckets bounds to slice of float64.

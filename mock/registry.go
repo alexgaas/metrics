@@ -5,9 +5,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"metrics"
-	"metrics/internal/pkg/metricsutil"
-	"metrics/internal/pkg/registryutil"
+	"github.com/alexgaas/metrics"
+	"github.com/alexgaas/metrics/internal/pkg/metricsutil"
+	"github.com/alexgaas/metrics/internal/pkg/registryutil"
 )
 
 var _ metrics.Registry = (*Registry)(nil)

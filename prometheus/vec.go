@@ -3,8 +3,8 @@ package prometheus
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"metrics"
-	"metrics/internal/pkg/metricsutil"
+	"github.com/alexgaas/metrics"
+	"github.com/alexgaas/metrics/internal/pkg/metricsutil"
 )
 
 var _ metrics.CounterVec = (*CounterVec)(nil)

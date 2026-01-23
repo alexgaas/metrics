@@ -1,9 +1,8 @@
 package prometheus
 
 import (
+	"github.com/alexgaas/metrics"
 	"github.com/prometheus/client_golang/prometheus"
-
-	"metrics"
 )
 
 var _ metrics.Counter = (*Counter)(nil)

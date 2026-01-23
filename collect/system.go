@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/procfs"
 
-	"metrics"
+	"github.com/alexgaas/metrics"
 )
 
 var _ Func = GoMetrics

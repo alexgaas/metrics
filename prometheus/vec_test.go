@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"metrics"
+	"github.com/alexgaas/metrics"
 )
 
 func TestCounterVec(t *testing.T) {

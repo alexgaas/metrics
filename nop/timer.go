@@ -3,7 +3,7 @@ package nop
 import (
 	"time"
 
-	"metrics"
+	"github.com/alexgaas/metrics"
 )
 
 var _ metrics.Timer = (*Timer)(nil)
