@@ -12,7 +12,7 @@ Framework supports:
 
 Add metric value:
 ```go
-r := prometheus.NewRegistry(NewRegistryOpts())
+r := prometheus.NewRegistry(prometheus.NewRegistryOpts())
 
 cnt := r.Counter("mycounter")
 cnt.Add(42)
